@@ -1,10 +1,20 @@
-// To convert temperatures in degrees Celsius to Fahrenheit, multiply by 1.8 (or 9/5) and add 32.
+window.onload = function() {
+  function convertC(number1) {
+    return (number1 * 1.8) + 32 
+  }
 
-function convert(number1) {
-  return (number1 * 1.8) + 32
-  
-}
+  function convertF(number1) {
+    return (number1 - 32) * .5556
+  }
+  const number1 = parseInt(prompt("Enter a temperature"));
 
-const number1 = parseInt(prompt("Enter a temperature in Celsius"));
+  let cel = document.querySelector("#cToF");
+  cel.onclick = function() {
+    window.alert("Your C temperature in Farenheit is " + convertC(number1));
+  };
 
-window.alert("Your temperature in Farenheit is " + convert(number1));
+  let far = document.querySelector("#fToC");
+  far.onclick = function() {
+    window.alert("Your F temperature in Celsius is " + convertF(number1));
+  };
+};
