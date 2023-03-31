@@ -2,7 +2,7 @@
 
 #### By _Marcus Kyung_
 
-#### _Basic webpage which converts temperature from degrees C to degrees F_
+#### _Basic webpage which converts a user inputted temperature from degrees Fahrenheit to degrees Celsius or degrees Celsius to degrees Fahrenheit_
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-_Basic webpage developed using HTML and JavaScript which prompts the user for a temperature in degrees C. The temperature is then converted to F using JavaScript._
+_Basic webpage developed using HTML and JavaScript which prompts the user for a temperature value. The temperature is then converted from degrees Fahrenheit to degrees Celsius or degrees Celsius to degrees Fahrenheit._
 
 ## Setup/Installation Requirements
 
